@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #ef494980;
+}
+
+.ratingDiv{
+    margin-top: 20%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    background: white;
+    padding-bottom: 20pt;
+    border-radius: 5pt;
+
+}
+
+.ratingDiv p{
+    padding: 0%;
+
+}
+
+.ratingDiv h2{
+    font-family: Open Sans;
+    color: #E76363;
+    text-align: center;
+    display: block;
+}
+
+.ratingDiv h3{
+    font-family: Open Sans;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 10pt;
+    padding-left: 10pt;
+    color: #E76363;
+}
+
+.star1, .star2, .star3, .star4, .star5{
+    
+    border: 1pt solid #E76363;
+    background: #ffffff;
+    border-radius: 100%;
+    width: 25pt;
+    height: 25pt;
+}
+
+
+.ratingDiv label::after{
+    opacity: 1;
+
+}
+
+.Align{
+    display: inline-block
+}
+
+
+
+/*.star2:active{
+  background: black;
+}
+*/
+/*
+.ratingDiv input{
+    /*display: none;*//*
+    height: 1500;
+}
+
+.ratingDiv input.checked{
+    border: 6px solid black;
+}
+
+
+.ratingDiv label{
+    display: inline-block;
+    cursor: pointer;
+
+    background: #ccc;
+}
+
+.ratingDiv label::before{
+
+}
